@@ -1,0 +1,468 @@
+{
+    "apartments": [
+        {
+            "id": "1",
+            "title": "Modern Apartment Near Campus Center",
+            "description": "Ideal for students, this apartment is close to campus facilities and student nightlife.",
+            "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+            "location": "Near Campus Center",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": true,
+            "amenities": ["Gym", "Pool", "High-Speed Internet", "Study Lounge", "Bike Storage"],
+            "units": [
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 1000
+                },
+                {
+                    "beds": 2,
+                    "baths": 2,
+                    "rent": 1200
+                },
+                {
+                    "beds": 3,
+                    "baths": 2,
+                    "rent": 1400
+                }
+            ],
+            "rating": 4.1
+        },
+        {
+            "id": "2",
+            "title": "Cozy Studio Adjacent to Campus",
+            "description": "Compact and efficient, perfect for students who enjoy a quiet study environment.",
+            "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80",
+            "location": "Adjacent to Campus",
+            "furnished": false,
+            "utilitiesIncluded": false,
+            "petFriendly": false,
+            "amenities": ["Laundry Room", "Campus Shuttle Service"],
+            "units": [
+                {
+                    "beds": 0,
+                    "baths": 1,
+                    "rent": 700
+                },
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 750
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": "3",
+            "title": "Campus Seaside Luxury Condo",
+            "description": "Luxury living with stunning ocean views, perfect for students who want a premium living experience.",
+            "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+            "location": "Campus Seaside Residence",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": true,
+            "amenities": ["Gym", "Pool", "Sauna", "24/7 Security", "Study Rooms", "Campus Security"],
+            "units": [
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 1400
+                },
+                {
+                    "beds": 2,
+                    "baths": 2,
+                    "rent": 2200
+                },
+                {
+                    "beds": 3,
+                    "baths": 3,
+                    "rent": 1500
+                }
+            ],
+            "rating": 3.9
+        },
+        {
+            "id": "4",
+            "title": "Loft Near Campus Historic Quarter",
+            "description": "A blend of modern and traditional, close to historic campus buildings.",
+            "image": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?q=80&w=2884&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Near Campus Historic Quarter",
+            "furnished": false,
+            "utilitiesIncluded": false,
+            "petFriendly": false,
+            "amenities": ["Rooftop Terrace", "Campus Wi-Fi Access"],
+            "units": [
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 1300
+                },
+                {
+                    "beds": 2,
+                    "baths": 1,
+                    "rent": 1500
+                }
+            ],
+            "rating": 3.2
+        },
+        {
+            "id": "5",
+            "title": "University Edge Economical Apartment",
+            "description": "Economical option, great for students and within walking distance to university classes.",
+            "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+            "location": "University Edge Apartments",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": true,
+            "amenities": ["Bike Storage", "Community Lounge", "On-Site Tutoring Services"],
+            "units": [
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 800
+                },
+                {
+                    "beds": 2,
+                    "baths": 1,
+                    "rent": 950
+                }
+            ],
+            "rating": 4.7
+        },
+        {
+            "id": "6",
+            "title": "Parkside Student Residences",
+            "description": "Modern living with a touch of nature, surrounded by parks and green spaces.",
+            "image": "https://images.unsplash.com/photo-1619542402915-dcaf30e4e2a1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Adjacent to City Park",
+            "furnished": true,
+            "utilitiesIncluded": false,
+            "petFriendly": true,
+            "amenities": [
+            "Nearby Park Access",
+            "Fitness Center",
+            "Study Areas",
+            "Community Events"
+            ],
+            "units": [
+            {
+                "beds": 1,
+                "baths": 1,
+                "rent": 1100
+            },
+            {
+                "beds": 2,
+                "baths": 2,
+                "rent": 1300
+            }
+            ],
+            "rating": 4.3
+        },
+        {
+            "id": "7",
+            "title": "Urban Chic Downtown Apartments",
+            "description": "Stylish apartments in the heart of the city, perfect for students who love urban life.",
+            "image": "https://images.unsplash.com/photo-1605267143746-999bf61d0d08?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Downtown",
+            "furnished": false,
+            "utilitiesIncluded": true,
+            "petFriendly": false,
+            "amenities": [
+            "Rooftop Lounge",
+            "High-Speed Internet",
+            "24/7 Security",
+            "Underground Parking"
+            ],
+            "units": [
+            {
+                "beds": 1,
+                "baths": 1,
+                "rent": 1200
+            },
+            {
+                "beds": 2,
+                "baths": 1,
+                "rent": 1400
+            }
+            ],
+            "rating": 4.6
+        },
+        {
+            "id": "8",
+            "title": "Riverside Tranquility Lofts",
+            "description": "Peaceful living by the river, offering a serene environment for studying and relaxation.",
+            "image": "https://images.unsplash.com/photo-1657458849933-d6b194fce12b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Riverside",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": true,
+            "amenities": [
+            "Riverside Walk",
+            "Kayak and Bike Rentals",
+            "Outdoor Study Spaces",
+            "Community Garden"
+            ],
+            "units": [
+            {
+                "beds": 1,
+                "baths": 1,
+                "rent": 1000
+            },
+            {
+                "beds": 2,
+                "baths": 2,
+                "rent": 1250
+            }
+            ],
+            "rating": 4.4
+        },
+        {
+            "id": "9",
+            "title": "Greenwich Village Artistic Flats",
+            "description": "Bohemian style apartments in a vibrant, artistic neighborhood.",
+            "image": "https://images.unsplash.com/photo-1650137938625-11576502aecd?q=80&w=1953&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Greenwich Village",
+            "furnished": true,
+            "utilitiesIncluded": false,
+            "petFriendly": true,
+            "amenities": [
+            "Art Studios",
+            "Live Music Venues Nearby",
+            "Creative Community",
+            "Vintage Shops"
+            ],
+            "units": [
+            {
+                "beds": 1,
+                "baths": 1,
+                "rent": 1300
+            },
+            {
+                "beds": 2,
+                "baths": 1,
+                "rent": 1550
+            }
+            ],
+            "rating": 4.2
+        },
+        {
+            "id": "10",
+            "title": "The Metropolitan Executive Suites",
+            "description": "High-end living for students who desire luxury and convenience.",
+            "image": "https://images.unsplash.com/photo-1565623833408-d77e39b88af6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "City Center",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": false,
+            "amenities": [
+              "Concierge Service",
+              "Indoor Pool",
+              "Fitness and Wellness Center",
+              "Business Lounge"
+            ],
+            "units": [
+              {
+                "beds": 1,
+                "baths": 1,
+                "rent": 1500
+              },
+              {
+                "beds": 4,
+                "baths": 4,
+                "rent": 2200
+              }
+            ],
+            "rating": 2.1
+        },
+        {
+            "id": "11",
+            "title": "Suburban Retreat Townhomes",
+            "description": "Spacious townhomes in a quiet suburban area, offering a peaceful study environment.",
+            "image": "https://images.unsplash.com/photo-1625283518755-6047df2fb180?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Suburban Heights",
+            "furnished": false,
+            "utilitiesIncluded": false,
+            "petFriendly": true,
+            "amenities": [
+            "Private Garages",
+            "Backyard Spaces",
+            "Community Park",
+            "Pet Park"
+            ],
+            "units": [
+            {
+                "beds": 2,
+                "baths": 1.5,
+                "rent": 1100
+            },
+            {
+                "beds": 3,
+                "baths": 2.5,
+                "rent": 1350
+            },
+            {
+                "beds": 4,
+                "baths": 3,
+                "rent": 1600
+            }
+            ],
+            "rating": 4.2
+        },
+        {
+            "id": "12",
+            "title": "Historic Downtown Lofts",
+            "description": "Charming lofts in a renovated historic building, perfect for students who appreciate character.",
+            "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Old Town District",
+            "furnished": true,
+            "utilitiesIncluded": false,
+            "petFriendly": false,
+            "amenities": [
+            "Exposed Brick Walls",
+            "Original Hardwood Floors",
+            "Close to Cafes and Shops",
+            "Public Transportation Access"
+            ],
+            "units": [
+            {
+                "beds": 1,
+                "baths": 1,
+                "rent": 950
+            },
+            {
+                "beds": 2,
+                "baths": 1,
+                "rent": 1200
+            }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": "13",
+            "title": "Lakeside Serenity Apartments",
+            "description": "Tranquil apartments overlooking a beautiful lake, perfect for relaxation and study.",
+            "image": "https://images.unsplash.com/photo-1621778078158-d8f43f9ac47e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Lakeview",
+            "furnished": false,
+            "utilitiesIncluded": true,
+            "petFriendly": true,
+            "amenities": [
+            "Lake Access",
+            "Boat Dock",
+            "Walking Trails",
+            "Outdoor BBQ Area"
+            ],
+            "units": [
+            {
+                "beds": 1,
+                "baths": 1,
+                "rent": 1050
+            },
+            {
+                "beds": 2,
+                "baths": 2,
+                "rent": 1250
+            },
+            {
+                "beds": 3,
+                "baths": 2,
+                "rent": 1450
+            }
+            ],
+            "rating": 4.3
+        },
+        {
+            "id": "14",
+            "title": "Eco-Friendly Modern Residences",
+            "description": "Sustainable living in eco-friendly apartments, featuring modern design and green technology.",
+            "image": "https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Green Tech Valley",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": false,
+            "amenities": [
+                "Solar Panels",
+                "Rainwater Harvesting",
+                "Energy-Efficient Appliances",
+                "Community Garden"
+            ],
+            "units": [
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 1150
+                },
+                {
+                    "beds": 2,
+                    "baths": 2,
+                    "rent": 1400
+                }
+            ],
+            "rating": 4.6
+        },
+        {
+            "id": "15",
+            "title": "Garden View Studio Apartments",
+            "description": "Affordable and cozy studio apartments with a serene garden view, ideal for students seeking a calm study environment.",
+            "image": "https://images.unsplash.com/photo-1516514239619-2eb4723a06a1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "West End Gardens",
+            "furnished": false,
+            "utilitiesIncluded": false,
+            "petFriendly": true,
+            "amenities": [
+                "Community Garden",
+                "Laundry Facilities",
+                "Bike Racks",
+                "Public Transport Nearby"
+            ],
+            "units": [
+                {
+                    "beds": 0,
+                    "baths": 1,
+                    "rent": 600
+                },
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 650
+                }
+            ],
+            "rating": 3.8
+        },
+        {
+            "id": "16",
+            "title": "Urban Edge Luxury Lofts",
+            "description": "Sophisticated and spacious lofts, offering luxury living with a touch of urban edge, perfect for students who want to experience city life.",
+            "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "location": "Downtown Skyline",
+            "furnished": true,
+            "utilitiesIncluded": true,
+            "petFriendly": false,
+            "amenities": [
+                "Rooftop Deck",
+                "24-Hour Fitness Center",
+                "Private Parking",
+                "Smart Home Technology"
+            ],
+            "units": [
+                {
+                    "beds": 1,
+                    "baths": 1,
+                    "rent": 1200
+                },
+                {
+                    "beds": 2,
+                    "baths": 2,
+                    "rent": 1800
+                },
+                {
+                    "beds": 3,
+                    "baths": 2,
+                    "rent": 2100
+                }
+            ],
+            "rating": 4.7
+        }
+    ]
+  }
